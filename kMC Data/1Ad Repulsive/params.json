@@ -1,0 +1,15 @@
+{
+    "name" : "s_eaa-3.0_rxn-1.0_err2",
+    "latt" : "square",
+    "L1" : 20,
+    "L2" : 20,
+    "Kad" : "geo",
+    "Kad_s" : 1E-2,
+    "Kad_e" : 1E8,
+    "NKad" : 25,
+    "Krxn" : 1.0,
+    "Kdiff" : 0.0,
+    "eaa" : 3.0,
+    "N_relax" : 1E4,
+    "N_steps" : 1E7
+}

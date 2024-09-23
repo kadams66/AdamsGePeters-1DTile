@@ -1,0 +1,20 @@
+{
+    "name" : "s_self-1.0_cross-min1.0_diff-0.0_rxn-1.0_test2",
+    "latt" : "square",
+    "L1" : 20,
+    "L2" : 20,
+    "N_relax" : 1E4,
+    "N_steps" : 1E5,
+    "KA" : "geo",
+    "KA_s" : 1E-2,
+    "KA_e" : 1E2,
+    "KA_num" : 21,
+    "KdiffA" : 0.0,
+    "KB" : 1.0,
+    "Kdes" : 1.0,
+    "KdiffB" : 0.0,
+    "eAA" : 1.0,
+    "eBB" : 1.0,
+    "eAB" : -1.0,
+    "krxn" : 1.0
+}

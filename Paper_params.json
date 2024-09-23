@@ -1,0 +1,9 @@
+{
+    "run_name": "Diffusion",
+    "n_ads": 1,
+    "n_points": 100,
+    "lds":[
+        [5, 2],
+        [8, 3]
+    ]
+}
