@@ -112,7 +112,7 @@ def multi_lds(run_name, n_ads, n_points, lds, save_loc=None):
 ##################################################################################################
 
 if __name__ == '__main__':
-    with open('Paper_params.json') as f:
+    with open('Tile_params.json') as f:
         data_params = json.load(f)
     run_name = data_params['run_name']
     print(run_name)
@@ -124,6 +124,6 @@ if __name__ == '__main__':
     except KeyError:
         save_loc = f'Tile Data/{n_ads}Ad {run_name}/'
     os.makedirs(save_loc + 'console/', exist_ok=True)
-    shutil.copy('Paper_params.json', save_loc)
+    shutil.copy('Tile_params.json', save_loc)
     multi_lds(run_name, n_ads, n_points, lds, save_loc)
     print('done')
