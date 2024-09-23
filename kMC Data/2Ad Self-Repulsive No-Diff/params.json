@@ -1,5 +1,5 @@
 {
-    "name" : "s_self-1.0_cross-min1.0_diff-0.0_rxn-1.0_test2",
+    "name" : "Self-Repulsive No-Diff",
     "latt" : "square",
     "L1" : 20,
     "L2" : 20,
